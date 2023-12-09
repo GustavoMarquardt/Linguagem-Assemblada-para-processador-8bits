@@ -1,0 +1,12 @@
+LDA d2
+LDB d2
+_label:
+LDAR RC
+SUB
+JZ _label:
+RAR d2
+AND
+NOTB
+NOTA
+ADD
+AND

@@ -1,0 +1,11 @@
+LDA xA
+LDB x3
+ADD 
+_label:
+LDAR RC
+SUB
+JC _label:
+XOR
+AND
+LDBR RC
+RAL d03
